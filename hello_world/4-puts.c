@@ -1,6 +1,5 @@
 #include <stdio.h>
-/** aaaa **/
-int main(void)
+int main(void) /** csck**/
 {
 puts("\"Programming is like building a multilingual puzzle");
 getchar();
