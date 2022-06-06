@@ -1,4 +1,8 @@
 #include <stdio.h>
+/**
+ * main - Short description
+ * Return: returnz
+ */
 int main(void)
 {
 int intType;
