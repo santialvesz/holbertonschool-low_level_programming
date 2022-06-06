@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <unistd.h>
 /**
- * main -  program that prints exactly 
+ * main - program that prints exactly 
  * Return: must return one
 */
 int main(void)
