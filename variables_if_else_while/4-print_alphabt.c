@@ -5,7 +5,7 @@ char c;
 for (c = 'a';  c <= 'z'; c++)
 {
 {
-if (!= 'q' && != 'e')
+if (c != 'q' && c != 'e')
 }	
 putchar(c);
 }
