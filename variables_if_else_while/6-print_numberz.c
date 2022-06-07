@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
  *  * main - Numbers cero to nine
- *   * Return: return none
- *    */
+ *  * Return: return none
+ */
 int main(void)
 {
 int n;
