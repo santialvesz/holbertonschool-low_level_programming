@@ -2,7 +2,7 @@
 int main(void)
 {
 char c;
-for (c = 'a'; (c != 'q' ) c <= 'z'; c++)
+for (c = 'a'; (c != 'q' ); c <= 'z'; c++)
 {
 putchar(c);
 }
