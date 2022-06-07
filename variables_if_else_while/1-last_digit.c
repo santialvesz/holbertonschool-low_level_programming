@@ -16,11 +16,11 @@ if (n > 5)
 {
 printf("Last digit of %i is %i and is greater than 5\n", n, d);
 }
-elif (n == 0)
+elseif (n == 0)
 {
 printf("Last digit of %i is %i and is 0\n", n, d);
 }
-elif (n < 6 && !0)
+elseif (n < 6 && !0)
 {
 printf("Last digit of %i is %i and is less than 6 and not 0\n", n, d);
 }
