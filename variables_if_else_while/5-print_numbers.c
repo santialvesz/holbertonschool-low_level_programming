@@ -6,6 +6,6 @@
 int main(void)
 {	
 int n;
-for (n = 9; n >= 0; c--)
+for (n = 9; n >= 0; n--)
 printf("%d\r\n");
 return (0);
