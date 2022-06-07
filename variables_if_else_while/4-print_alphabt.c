@@ -2,8 +2,11 @@
 int main(void)
 {
 char c;
-for (c = 'a'; && c != 'e' && c != 'q' c <= 'z'; c++)
+for (c = 'a';  c <= 'z'; c++)
 {
+{
+if (!= 'q' && != 'e')
+}	
 putchar(c);
 }
 putchar('\n');
