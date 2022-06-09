@@ -5,12 +5,10 @@
  * @c - the int
  * Return: always 0
  */
-int _abs(int)
+int _abs(int c)
 {
 
-int c;
-
-int abs (c);
+abs(int c);
 _putchar(c);
 _putchar('\n');
 return (0);
