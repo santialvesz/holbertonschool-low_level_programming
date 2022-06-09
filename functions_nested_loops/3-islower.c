@@ -4,10 +4,14 @@
  * Return: Return 1 or 0 in each case
  */
 int _islower(int c);
-
+{
 int c;
-if( _islower(c) ) 
+if(c >= 'a' and c <= 'z') 
+{
 return(1);
-elseif( _islower(c) )
+}
+else
+{
 return(0);
+}
 }
