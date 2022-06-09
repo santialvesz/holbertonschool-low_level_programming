@@ -12,4 +12,6 @@ int _islower(int c);
 int _isalpha(int c);
 /** print_sign - prints the sign of a number**/
 int print_sign(int n);
+/** _abs - computes the absolute vaulue of an integrer **/
+int _abs(int);
 #endif
