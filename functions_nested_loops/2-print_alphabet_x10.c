@@ -9,9 +9,11 @@ char c;
 int t;
 
 for (t = '0'; t <= '9'; t++)
+{
 for (c = 'a';c <= 'z'; c++)
 {
 _putchar(c);
 }
 _putchar('\n');
+}
 }
