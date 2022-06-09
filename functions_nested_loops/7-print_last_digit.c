@@ -3,10 +3,10 @@
  * print_last_digit - print the last digit of a num
  * @n: char
  * Return: return **/
-int print_last_digit(char n)
+int print_last_digit(int n)
 {
 
-char d;
+int d;
 
 d = n % 10;
 _putchar('0' + d);

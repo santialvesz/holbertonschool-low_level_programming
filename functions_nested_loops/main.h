@@ -15,5 +15,5 @@ int print_sign(int n);
 /** _abs - computes the absolute vaulue of an integrer **/
 int _abs(int c);
 /** print_last_digit - prints the last digit of a number **/
-int print_last_digit(char n);
+int print_last_digit(int n);
 #endif
