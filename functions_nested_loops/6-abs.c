@@ -2,16 +2,16 @@
 #include <stdlib.h>
 /**
  * _abs - computes the absolute value of an integrer
- * @c - the int
+ * @c: - the int
  * Return: always 0
  */
 int _abs(int c)
 {
 
-abs(int c);
-{
+abs(c);
+
 _putchar(c);
 _putchar('\n');
 return (0);
 }
-}
+
