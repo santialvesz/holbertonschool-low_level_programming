@@ -10,8 +10,8 @@ int _abs(int)
 
 int c;
 
-int abs (int c);
+int abs (c);
 _putchar(c);
 _putchar('\n');
-return (0);a
+return (0);
 }
