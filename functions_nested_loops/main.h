@@ -16,4 +16,6 @@ int print_sign(int n);
 int _abs(int c);
 /** print_last_digit - prints the last digit of a number **/
 int print_last_digit(int n);
+/** jack_bauer - print every minute of the day of jack bauer**/
+void jack_bauer(void);
 #endif
