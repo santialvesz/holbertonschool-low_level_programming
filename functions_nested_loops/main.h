@@ -6,4 +6,6 @@ int _putchar(char);
 void print_alphabet(void);
 /** print_alphabet_x10 - print the alphabet x10 times**/
 void print_alphabet_x10(void);
+/** _islower - checks for alphabet character **/
+int _islower(int c);
 #endif
