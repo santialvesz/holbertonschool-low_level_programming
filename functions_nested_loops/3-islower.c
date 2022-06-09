@@ -1,13 +1,14 @@
 #include "main.h"
 #include <ctype.h>
-/** 
+/**
  * _islower - check if c is lowercase
+ * @c: parameter
  * Return: Return 1 or 0 in each case
  */
 int _islower(int c)
 {
 
-if (c >= 'a'&& c <= 'z')
+if (c >= 'a' && c <= 'z')
 {
 return (1);
 }
