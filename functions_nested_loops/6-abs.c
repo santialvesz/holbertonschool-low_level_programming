@@ -7,10 +7,10 @@
  */
 int _abs(int c)
 {
+int d;
+d = abs(c);
 
-abs(c);
-
-_putchar(c);
+_putchar(d);
 _putchar('\n');
 return (0);
 }
