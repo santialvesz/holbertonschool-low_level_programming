@@ -1,6 +1,7 @@
 #include "main.h"
 /**
- * print_sign - prints the sign of a number
+ * print_sign - prints the sign of a numbe
+ * @n: numberr
  * Return: return x number in each case
  */
 
@@ -22,7 +23,7 @@ _putchar('\n');
 else
 {
 _putchar('-');
-return (-1);|
+return (-1);
 _putchar('\n');
 }
 }
