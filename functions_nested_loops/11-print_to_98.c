@@ -1,6 +1,7 @@
 #include "main.h"
 #include <stdio.h>
-/** print_to_98 - pprints all n numbers to 98
+
+/** print_to_98 - prints all n numbers to 98
  * @n: n is the int
  * Return: Returns all numbers
  */
@@ -10,7 +11,7 @@ void print_to_98(int n)
 
 if (n <= 98)
 {
-for (n = n; n <= 97; n++)	
+for (n = n; n <= 97; n++)
 {
 printf("%d, ", n);
 }
