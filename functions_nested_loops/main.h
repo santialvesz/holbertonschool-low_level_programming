@@ -22,4 +22,6 @@ void jack_bauer(void);
 void times_table(void);
 /** add - adds two integrers **/
 int add(int, int);
+/** print_to_98 - print all naturals numbers from n to 98 **/
+void print_to_98(int n);
 #endif
