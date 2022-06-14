@@ -2,7 +2,7 @@
 #include <stdio.h>
 /**
  * print_rev - reverse function
- * @i: char
+ * @s: char
  * Return: 0
  */
 
@@ -15,7 +15,7 @@ void print_rev(char *s)
 	{
 	i++;
 	}
-	while (*(s + i -1) != 0)
+	while (*(s + i - 1) != 0)
 	{
 	i--;
 	_putchar(*(s + i));
