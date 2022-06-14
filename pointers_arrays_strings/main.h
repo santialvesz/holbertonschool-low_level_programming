@@ -9,4 +9,6 @@ void swap_int(int *a, int *b);
 int _strlen(char *s);
 /** funtion that puts sth **/
 void _puts(char *str);
+/** function that prints string in reverse **/
+void print_rev(char *s);
 #endif
