@@ -11,4 +11,6 @@ int _strlen(char *s);
 void _puts(char *str);
 /** function that prints string in reverse **/
 void print_rev(char *s);
+/** _putchar - writes the character c to stdout **/
+int _putchar(char);
 #endif
