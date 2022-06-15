@@ -13,4 +13,6 @@ void _puts(char *str);
 void print_rev(char *s);
 /** _putchar - writes the character c to stdout **/
 int _putchar(char);
+/** function that reverses a string **/
+void rev_string(char *s);
 #endif
