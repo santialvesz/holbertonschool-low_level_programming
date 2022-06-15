@@ -4,13 +4,14 @@
 
 /**
  * puts2 - prints every other character of a string
- * @i: int 
+ * @str: int
  * Return: Always 0
  */
 
 void puts2(char *str)
 {
 	int i, len;
+
 	len = strlen(str);
 
 		for (i = 0; i < len; i++)
@@ -21,7 +22,6 @@ void puts2(char *str)
 			}
 		}
 				{	_putchar('\n');
-	
+
 				}
-}		
-		
+}
