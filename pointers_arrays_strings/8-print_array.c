@@ -2,7 +2,8 @@
 #include <stdio.h>
 
 /**
- * print_array - array that prints int
+ * print_array - array that prints in
+ * @i: int
  * Return: 0
  */
 
@@ -15,17 +16,17 @@ void print_array(int *a, int n)
 
 		if (!(i == n - 1))
 
-		{
+		
 			printf("%d, ", a[i]);
 		
-		}
+		
 		else if (i == n - 1)
 
-			{
+			
 
 				printf("%d", a[i]);
 
-			}
+			
 
 	}
 			_putchar('\n');
