@@ -4,7 +4,8 @@
 
 /** 
  * _strcpy - copies string
- * @
+ * @dest: argument
+ * @src. argument
  * Return: return dest
  */
 
@@ -19,7 +20,7 @@ char *_strcpy(char *dest, char *src)
 	       	dest[i] = src[i];
 
 	}
-	dest[i] = NULL;
+	dest[i] = '\0';
 		return (dest);
 
 }
