@@ -25,4 +25,6 @@ void print_array(int *a, int n);
 char *_strcpy(char *dest, char *src);
 /** function that concatenates two strings **/ 
 char *_strcat(char *dest, char *src);
+/** function that concatenates two strings **/
+char *_strncat(char *dest, char *src, int n);
 #endif
