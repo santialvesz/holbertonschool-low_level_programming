@@ -8,8 +8,6 @@ void print_array(int *a, int n)
 {
 	int i;
 
-
-
 	for (i = 0; i < n; a++)
 	{
 		
@@ -22,4 +20,7 @@ void print_array(int *a, int n)
 			printf("%d", a[i]);
 	}	
 
+		{
+			_putchar('\n');
+		}
 }
