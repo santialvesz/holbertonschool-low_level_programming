@@ -17,4 +17,6 @@ int _putchar(char);
 void rev_string(char *s);
 /** function that prints every other character of a string, starting with the first characte r**/
 void puts2(char *str);
+/**  function that prints half of a string **/
+void puts_half(char *str);
 #endif
