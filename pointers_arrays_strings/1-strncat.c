@@ -1,27 +1,24 @@
 #include "main.h"
 #include <stdio.h>
 #include <string.h>
-
 /**
- * strncat - concatenates funcions
- * @src: element
- * @dest: element
- * @n: element
- * Return: dest
+ * _strncat - Function that concatenates two strings.
+ * @dest: Element.
+ * @src: Element.
+ * @n: Element.
+ * Return: return.
  */
-
 char *_strncat(char *dest, char *src, int n)
-}
-	int i, e;
+{
+	int a, b;
 
-	for (e = 0; dest[e] != 0; e++)
+	for (a = 0; dest[a] != 0; a++)
 	{
 	}
-	for (i = 0; i < n && src[i] != 0; i++)
+	for (b = 0; b < n && src[b] != 0; b++)
 	{
-		dest[e] = src[i];
-			e++;
+	dest[a] = src[b];
+	a++;
 	}
-
 	return (dest);
 }
