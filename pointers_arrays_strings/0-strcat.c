@@ -2,6 +2,13 @@
 #include <stdio.h>
 #include <string.h>
 
+/**
+ * _strcat - concatenate function
+ * @dest : element
+ * @src : element
+ * Return: dest
+ */
+
 char *_strcat(char *dest, char *src)
 {
 
