@@ -1,6 +1,11 @@
 #include "main.h"
 #include <stdio.h>
 
+/** factorial - returns the factorial of a num
+ * @n: int
+ * Return: 0,1,-1 in specific case
+ */
+
 
 
 int factorial(int n)
