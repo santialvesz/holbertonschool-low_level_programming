@@ -3,7 +3,7 @@
 
 /**
  * main - function that counts args
- * @argc; int
+ * @argc: int
  * @argv: char
  * Return: 0
  */
