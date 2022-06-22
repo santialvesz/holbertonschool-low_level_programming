@@ -1,5 +1,5 @@
 #include <stdio.h>
-#nclude <stdlib.h>
+#include <stdlib.h>
 /**
  * main - function that cop
  * @argv: memory area
