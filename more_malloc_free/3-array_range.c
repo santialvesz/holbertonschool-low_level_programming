@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 /**
  * *array_range - Function that creates an array of integers.
  * @min: Element.
