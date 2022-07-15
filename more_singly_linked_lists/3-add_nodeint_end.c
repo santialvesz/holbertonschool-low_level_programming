@@ -1,17 +1,33 @@
 #include "lists.h"
 /**
- * free_listint -  free all the elements of the list
- * @head: the first element of the list
+ * add_nodeint_end - Function.
+ * @head: Pointer element.
+ * @n: Element of type int.
+ * Return: listint_t.
  */
-void free_listint(listint_t *head)
+listint_t *add_nodeint_end(listint_t **head, const int n)
 {
-	listint_t *aux;
+	listint_t *new_list;
+	listint_t *new_new;
 
-	while (head)
+	new_list = malloc(sizeof(listint_t));
+
+	if (!new_list)
 	{
-	aux = head;
-	head = head->next;
-	free(aux);
+		return (NULL);
 	}
-	free(head);
+	new_list->n = n;
+	new_list->next = NULL;
+	if (*head == NULL)
+	{
+		*head = new_list;
+	}
+	else
+	{
+			new_new = *head;
+			while (new_new->next)
+			new_new = new_new->next;
+			new_new->next = new_list;
+	}
+	return (*head);
 }
